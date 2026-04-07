@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CS\\ProgAdvices\\(12) Data Structure\\SinglyLinkedListImplimentation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E400FF3F-6536-430D-BFAC-210DA3CF0610}|DeleteNode\\DeleteNode.vcxproj|C:\\CS\\ProgAdvices\\(12) Data Structure\\SinglyLinkedListImplimentation\\DeleteNode\\DeleteNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E400FF3F-6536-430D-BFAC-210DA3CF0610}|DeleteNode\\DeleteNode.vcxproj|solutionrelative:DeleteNode\\DeleteNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7355BB8-81F8-438C-9FA0-EDBF07BD28AF}|DeleteFirstNode\\DeleteFirstNode.vcxproj|C:\\CS\\ProgAdvices\\(12) Data Structure\\SinglyLinkedListImplimentation\\DeleteFirstNode\\DeleteFirstNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D7355BB8-81F8-438C-9FA0-EDBF07BD28AF}|DeleteFirstNode\\DeleteFirstNode.vcxproj|solutionrelative:DeleteFirstNode\\DeleteFirstNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteNode.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(12) Data Structure\\SinglyLinkedListImplimentation\\DeleteNode\\DeleteNode.cpp",
+              "RelativeDocumentMoniker": "DeleteNode\\DeleteNode.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(12) Data Structure\\SinglyLinkedListImplimentation\\DeleteNode\\DeleteNode.cpp",
+              "RelativeToolTip": "DeleteNode\\DeleteNode.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-23T21:37:50.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteFirstNode.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(12) Data Structure\\SinglyLinkedListImplimentation\\DeleteFirstNode\\DeleteFirstNode.cpp",
+              "RelativeDocumentMoniker": "DeleteFirstNode\\DeleteFirstNode.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(12) Data Structure\\SinglyLinkedListImplimentation\\DeleteFirstNode\\DeleteFirstNode.cpp",
+              "RelativeToolTip": "DeleteFirstNode\\DeleteFirstNode.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-22T18:55:59.603Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

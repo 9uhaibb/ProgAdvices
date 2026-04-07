@@ -1,0 +1,3 @@
+﻿cl : command line  warning D9014: invalid value '3861' for '/wd'; assuming '5999'
+  Project 1.cpp
+  Project 1.vcxproj -> C:\CS\ProgAdvices\(13)Algorithms & Problem Solving Level 5\Project 1\x64\Debug\Requirements.exe

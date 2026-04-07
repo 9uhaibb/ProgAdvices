@@ -1,0 +1,35 @@
+Show LoginScreen and read account number and pin code(chek if exist or correct pin, if no read again)
+
+//done
+**************
+after logged in, show ATM main menu screen which have the following coices:
+    1. Quick Withdraw
+    2. Normal Withdraw
+    3. Deposite
+    4. Check Balance
+    5. Logout
+    read the choice and Perform
+    {
+        -Quick Withdraw : Show Quick Withdraw Menu, print the following 9 choices:
+        20, 50, 100, 200, 400, 600, 800, 1000, Exit (to Main menu)
+        then show the current balance, then read the user choice to perform
+        ask to confirm(y/n), if y ,check if the entered balance to Quick Withdraw is <= current balance in the account
+         perform and print the balance, then press any key to back
+        if no, back
+
+        -Normal Withdraw: Show Normal Withdraw,  Read an amount multiply of 5's (n % 5 == 0) (مضاعفات الخمسة, تقسم عليها بدون باقي)
+        chek if the entered value is a multiply of 5's ,
+         if no keep reading , if yes , ask to confirm (y/n), if yes perform if no back
+        also check if the entered balance to Withdraw is <= current balance in the account
+
+        - Deposite : Read the positive deposite ammount
+        ask to confirm 
+        after confirm print Done...
+        press any key to back
+
+        -Chek Balance: show balance(from the file), then press any key to back to the manu
+        
+        - Logout : Show Login Screen
+    }
+**************
+

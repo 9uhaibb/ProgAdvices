@@ -1,0 +1,31 @@
+a program to show the menu where the menu include :
+1. Show client list //done
+2. add client //done
+3. delete client
+4. update client info
+5. find client
+6. exit
+and the user choose one of them
+after choose and excute ,tell the user press any key to go back to main menu, (hint) then use system(pause>0)  
+*****
+notes:
+2 (add client)
+- do not add an exists account //done
+- ask if the usere want to add more clients (if no , back to manu) //done
+
+3 (delete Client)
+- check if the  acc exists //done
+- confirm to delete (if no back to manu) //done
+- after delete : tell the user press any key to go back to main menu, (hint) then use system(pause>0) //done
+
+4 (update client)
+- check if the  acc exists //done
+- confirm to update (if no back to manu) //done
+- after update : tell the user press any key to go back to main menu, (hint) then use system(pause>0) //done
+
+5 (Find Client)
+- Print the client if found
+- after print : tell the user press any key to go back to main menu, (hint) then use system(pause>0)
+
+6 (exit)
+

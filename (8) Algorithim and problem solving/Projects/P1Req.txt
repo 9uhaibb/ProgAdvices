@@ -1,0 +1,52 @@
+Implementation Plan for the Modifications
+1. Create the Login Screen
+Design the login interface (Console or GUI based on the project).
+Accept username and password input.
+Validate user credentials from the users file.
+If login is successful:
+If the user is Admin (permissions = -1) → Redirect to the main menu with a "Manage Users" option.
+If the user is a standard user → Allow only the permitted actions.
+If login fails, prompt for re-entry.
+
+2. Set Up the Users File
+Create a users file to store user data in the format (username, password, permissions).
+Ensure permissions are stored as either binary values or -1 for admins.
+
+3. Implement the Main Menu Screen
+Add a "Manage Users" option for admin users.
+Replace the "Exit" option with "Logout", which returns to the login screen.
+
+4. Implement the User Management Screen
+    A. List Users
+Read the users file and display all users along with their permissions.
+    B. Add a New User
+Prompt for a username, check if it already exists, and keep asking until a unique username is entered.
+Prompt for a password.
+Define permissions:
+If full system access is granted, assign -1.
+If restricted access, allow the admin to select specific permissions using binary values:
+View clients? (y/n)
+Add new client? (y/n)
+Delete client? (y/n)
+Update client? (y/n)
+Find client? (y/n)
+Perform transactions? (y/n)
+Manage users? (y/n)
+Convert permissions to a binary number using | for addition.
+Display "User added successfully" and ask if another user should be added.
+    C. Delete a User
+Display the list of users and allow selection for deletion.
+Ensure the currently logged-in user cannot delete themselves.
+Confirm before deleting.
+    D. Update a User
+Search for a user.
+Allow modification of the password or permissions.
+Reset permissions following the same selection process as adding a user.
+    E. Find a User
+Search for a user and display their details and permissions.
+
+5. Test the System
+Add users with different permissions and verify the listing.
+Ensure that permissions are applied correctly upon login.
+Test deleting and updating users.
+Ensure the logout functionality works as expected.

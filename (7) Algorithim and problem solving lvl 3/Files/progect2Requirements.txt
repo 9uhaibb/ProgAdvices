@@ -1,0 +1,30 @@
+on the project 1:
+add additional menu (Transactions menu)
+that include :
+1 Deposit (ايداع)
+2 Withdraw (سحب)
+3 show Total Balances (with their sum)
+4 return to main menu
+
+notes :
+1. Deposit (ايداع)
+Read Account number
+check if the account exist, keep reading until it exist
+if exist : print card, then read the amount to deposit
+confirm to deposit (y/n)
+ if yes, print done and the new Balance, then return to Transactions menu
+ if no , return to Transactions menu 
+
+2.2 Withdraw (سحب)
+Read Account number
+check if the account exist, keep reading until it exist
+if exist : print card, then read the amount to Withdraw
+if the amount to Withdraw > account source balance 
+print Amount Exeeds the balance, you can withdraw up to : Account source Balance
+then keep reading until Withdraw <= account source
+if true perform it then return to Transactions menu         
+
+3. Total Balances
+Print Account Number, Name, Balance in a table
+then print the sum of the Balances below the table
+then press any key to return to Transactions menu

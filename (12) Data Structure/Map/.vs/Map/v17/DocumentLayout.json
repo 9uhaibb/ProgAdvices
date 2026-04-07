@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Map\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B976EF2-AE12-494B-B944-B35BBF7E847A}|Map\\Map.vcxproj|C:\\CS\\ProgAdvices\\(12) Data Structure\\Map\\Map\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B976EF2-AE12-494B-B944-B35BBF7E847A}|Map\\Map.vcxproj|solutionrelative:Map\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Map.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Map\\Map\\Map.cpp",
+              "RelativeDocumentMoniker": "Map\\Map.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Map\\Map\\Map.cpp*",
+              "RelativeToolTip": "Map\\Map.cpp*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-28T18:28:16.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

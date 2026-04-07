@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1B18E83-F2A0-48DC-9E90-274AC20001AC}|DeleteLastNode\\DeleteLastNode.vcxproj|C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\DeleteLastNode\\DeleteLastNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E1B18E83-F2A0-48DC-9E90-274AC20001AC}|DeleteLastNode\\DeleteLastNode.vcxproj|solutionrelative:DeleteLastNode\\DeleteLastNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57C9FAF-D56F-42B9-8776-0BEB316812EF}|DeleteFirstNode\\DeleteFirstNode.vcxproj|C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\DeleteFirstNode\\DeleteFirstNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C57C9FAF-D56F-42B9-8776-0BEB316812EF}|DeleteFirstNode\\DeleteFirstNode.vcxproj|solutionrelative:DeleteFirstNode\\DeleteFirstNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23283B0A-5635-4BE9-B826-74C454A5E78D}|DeleteNode\\DeleteNode.vcxproj|C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\DeleteNode\\DeleteNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{23283B0A-5635-4BE9-B826-74C454A5E78D}|DeleteNode\\DeleteNode.vcxproj|solutionrelative:DeleteNode\\DeleteNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFF952A-8CBF-4173-9A22-18B621C01E52}|FindNode\\FindNode.vcxproj|C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\FindNode\\FindNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCFF952A-8CBF-4173-9A22-18B621C01E52}|FindNode\\FindNode.vcxproj|solutionrelative:FindNode\\FindNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C09FDA-E236-4E2E-905F-8DB81E2E329F}|InsertAtBegining\\InsertAtBegining.vcxproj|C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\InsertAtBegining\\InsertAtBegining.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D6C09FDA-E236-4E2E-905F-8DB81E2E329F}|InsertAtBegining\\InsertAtBegining.vcxproj|solutionrelative:InsertAtBegining\\InsertAtBegining.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB1B4EA3-C0C3-424C-8A97-F73939F87BB6}|Doubly Linked List\\Doubly Linked List.vcxproj|C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\Doubly Linked List\\Doubly Linked List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB1B4EA3-C0C3-424C-8A97-F73939F87BB6}|Doubly Linked List\\Doubly Linked List.vcxproj|solutionrelative:Doubly Linked List\\Doubly Linked List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteLastNode.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\DeleteLastNode\\DeleteLastNode.cpp",
+              "RelativeDocumentMoniker": "DeleteLastNode\\DeleteLastNode.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\DeleteLastNode\\DeleteLastNode.cpp",
+              "RelativeToolTip": "DeleteLastNode\\DeleteLastNode.cpp",
+              "ViewState": "AgIAAG0AAAAAAAAAAAA0wHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-25T18:58:05.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteFirstNode.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\DeleteFirstNode\\DeleteFirstNode.cpp",
+              "RelativeDocumentMoniker": "DeleteFirstNode\\DeleteFirstNode.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\DeleteFirstNode\\DeleteFirstNode.cpp",
+              "RelativeToolTip": "DeleteFirstNode\\DeleteFirstNode.cpp",
+              "ViewState": "AgIAAG0AAAAAAAAAAAA0wIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-25T18:32:28.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteNode.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\DeleteNode\\DeleteNode.cpp",
+              "RelativeDocumentMoniker": "DeleteNode\\DeleteNode.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\DeleteNode\\DeleteNode.cpp",
+              "RelativeToolTip": "DeleteNode\\DeleteNode.cpp",
+              "ViewState": "AgIAAHAAAAAAAAAAAAA0wIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-25T18:09:48.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FindNode.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\FindNode\\FindNode.cpp",
+              "RelativeDocumentMoniker": "FindNode\\FindNode.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\FindNode\\FindNode.cpp",
+              "RelativeToolTip": "FindNode\\FindNode.cpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA0wE8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-24T16:53:07.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InsertAtBegining.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\InsertAtBegining\\InsertAtBegining.cpp",
+              "RelativeDocumentMoniker": "InsertAtBegining\\InsertAtBegining.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\InsertAtBegining\\InsertAtBegining.cpp",
+              "RelativeToolTip": "InsertAtBegining\\InsertAtBegining.cpp",
+              "ViewState": "AgIAAD4AAAAAAAAAAAA0wGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-23T18:57:19.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Doubly Linked List.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\Doubly Linked List\\Doubly Linked List.cpp",
+              "RelativeDocumentMoniker": "Doubly Linked List\\Doubly Linked List.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Doubly Linked List\\Doubly Linked List\\Doubly Linked List.cpp",
+              "RelativeToolTip": "Doubly Linked List\\Doubly Linked List.cpp",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-23T18:29:57.634Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

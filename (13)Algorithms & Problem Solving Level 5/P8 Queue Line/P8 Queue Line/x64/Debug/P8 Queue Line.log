@@ -1,0 +1,26 @@
+﻿  P8 Queue Line.cpp
+C:\CS\ProgAdvices\(13)Algorithms & Problem Solving Level 5\P8 Queue Line\P8 Queue Line\clsString.h(121,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'P8%20Queue%20Line.cpp')
+  
+C:\CS\ProgAdvices\(13)Algorithms & Problem Solving Level 5\P8 Queue Line\P8 Queue Line\clsString.h(161,39): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'P8%20Queue%20Line.cpp')
+  
+C:\CS\ProgAdvices\(13)Algorithms & Problem Solving Level 5\P8 Queue Line\P8 Queue Line\clsString.h(218,19): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'P8%20Queue%20Line.cpp')
+  
+C:\CS\ProgAdvices\(13)Algorithms & Problem Solving Level 5\P8 Queue Line\P8 Queue Line\clsString.h(224,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'P8%20Queue%20Line.cpp')
+  
+C:\CS\ProgAdvices\(13)Algorithms & Problem Solving Level 5\P8 Queue Line\P8 Queue Line\clsString.h(281,35): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'P8%20Queue%20Line.cpp')
+  
+C:\CS\ProgAdvices\(13)Algorithms & Problem Solving Level 5\P8 Queue Line\P8 Queue Line\clsString.h(381,17): warning C4390: ';': empty controlled statement found; is this the intent?
+  (compiling source file 'P8%20Queue%20Line.cpp')
+  
+C:\CS\ProgAdvices\(13)Algorithms & Problem Solving Level 5\P8 Queue Line\P8 Queue Line\clsString.h(408,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'P8%20Queue%20Line.cpp')
+  
+C:\CS\ProgAdvices\(13)Algorithms & Problem Solving Level 5\P8 Queue Line\P8 Queue Line\clsQueueLine.h(100,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'P8%20Queue%20Line.cpp')
+  
+  P8 Queue Line.vcxproj -> C:\CS\ProgAdvices\(13)Algorithms & Problem Solving Level 5\P8 Queue Line\x64\Debug\P8 Queue Line.exe

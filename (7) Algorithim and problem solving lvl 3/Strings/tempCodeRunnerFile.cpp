@@ -1,0 +1,1 @@
+.substr(0, S1.length() - Delim.length())

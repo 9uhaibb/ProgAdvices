@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Swap Queue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4382B3B9-0450-483C-9721-48568187E5C2}|Swap Queue\\Swap Queue.vcxproj|C:\\CS\\ProgAdvices\\(12) Data Structure\\Swap Queue\\Swap Queue\\Swap Queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4382B3B9-0450-483C-9721-48568187E5C2}|Swap Queue\\Swap Queue.vcxproj|solutionrelative:Swap Queue\\Swap Queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Swap Queue.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Swap Queue\\Swap Queue\\Swap Queue.cpp",
+              "RelativeDocumentMoniker": "Swap Queue\\Swap Queue.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(12) Data Structure\\Swap Queue\\Swap Queue\\Swap Queue.cpp",
+              "RelativeToolTip": "Swap Queue\\Swap Queue.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-04T19:18:36.136Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

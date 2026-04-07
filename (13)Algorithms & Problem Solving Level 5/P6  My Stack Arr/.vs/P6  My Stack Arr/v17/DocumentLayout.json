@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0F9503-51EB-48C1-98B4-11BD28A9743E}|P6  My Stack Arr\\P6  My Stack Arr.vcxproj|C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\P6  My Stack Arr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A0F9503-51EB-48C1-98B4-11BD28A9743E}|P6  My Stack Arr\\P6  My Stack Arr.vcxproj|solutionrelative:P6  My Stack Arr\\P6  My Stack Arr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0F9503-51EB-48C1-98B4-11BD28A9743E}|P6  My Stack Arr\\P6  My Stack Arr.vcxproj|C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\clsMyStackArr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A0F9503-51EB-48C1-98B4-11BD28A9743E}|P6  My Stack Arr\\P6  My Stack Arr.vcxproj|solutionrelative:P6  My Stack Arr\\clsMyStackArr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0F9503-51EB-48C1-98B4-11BD28A9743E}|P6  My Stack Arr\\P6  My Stack Arr.vcxproj|C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\clsMyQueueArr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A0F9503-51EB-48C1-98B4-11BD28A9743E}|P6  My Stack Arr\\P6  My Stack Arr.vcxproj|solutionrelative:P6  My Stack Arr\\clsMyQueueArr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0F9503-51EB-48C1-98B4-11BD28A9743E}|P6  My Stack Arr\\P6  My Stack Arr.vcxproj|C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\clsDynamicArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A0F9503-51EB-48C1-98B4-11BD28A9743E}|P6  My Stack Arr\\P6  My Stack Arr.vcxproj|solutionrelative:P6  My Stack Arr\\clsDynamicArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsMyStackArr.h",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\clsMyStackArr.h",
+              "RelativeDocumentMoniker": "P6  My Stack Arr\\clsMyStackArr.h",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\clsMyStackArr.h",
+              "RelativeToolTip": "P6  My Stack Arr\\clsMyStackArr.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-11T16:10:40.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsMyQueueArr.h",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\clsMyQueueArr.h",
+              "RelativeDocumentMoniker": "P6  My Stack Arr\\clsMyQueueArr.h",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\clsMyQueueArr.h",
+              "RelativeToolTip": "P6  My Stack Arr\\clsMyQueueArr.h",
+              "ViewState": "AgIAAE4AAAAAAAAAAAA0wGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-11T16:04:13.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsDynamicArray.h",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\clsDynamicArray.h",
+              "RelativeDocumentMoniker": "P6  My Stack Arr\\clsDynamicArray.h",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\clsDynamicArray.h",
+              "RelativeToolTip": "P6  My Stack Arr\\clsDynamicArray.h",
+              "ViewState": "AgIAAPAAAAAAAAAAAAA0wAgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-11T16:03:48.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P6  My Stack Arr.cpp",
+              "DocumentMoniker": "C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\P6  My Stack Arr.cpp",
+              "RelativeDocumentMoniker": "P6  My Stack Arr\\P6  My Stack Arr.cpp",
+              "ToolTip": "C:\\CS\\ProgAdvices\\(13)Algorithms \u0026 Problem Solving Level 5\\P6  My Stack Arr\\P6  My Stack Arr\\P6  My Stack Arr.cpp",
+              "RelativeToolTip": "P6  My Stack Arr\\P6  My Stack Arr.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-11T16:02:46.767Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

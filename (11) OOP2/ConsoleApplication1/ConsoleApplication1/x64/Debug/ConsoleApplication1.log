@@ -1,0 +1,111 @@
+﻿  ConsoleApplication1.cpp
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsString.h(121,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsString.h(161,39): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsString.h(218,19): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsString.h(224,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsString.h(281,35): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsString.h(381,17): warning C4390: ';': empty controlled statement found; is this the intent?
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsString.h(408,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(50,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,25): error C2653: 'clsDate': is not a class or namespace name
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,34): error C3861: 'GetSysDateAndTimeString': identifier not found
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,60): error C2677: binary '+': no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+  (compiling source file 'ConsoleApplication1.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3250,62):
+      could be 'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3244,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3238,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)': template parameter '_Elem' is ambiguous
+              C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+              could be 'char'
+              C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+              or       '<error type>'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from 'std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3232,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'const _Elem *const ' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3219,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3213,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &&' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3207,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3196,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3183,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3172,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)': template parameter '_Elem' is ambiguous
+              C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+              could be 'char'
+              C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+              or       '<error type>'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3159,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const _Elem *const ' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3147,62):
+      or       'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from '<error type>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4535,46):
+      or       'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)': could not deduce template argument for 'const std::move_iterator<_Iter> &' from 'std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1984,50):
+      or       'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)'
+          C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(196,57):
+          'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)': could not deduce template argument for 'const std::reverse_iterator<_BidIt> &' from 'std::string'
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(396,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(443,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\CS\ProgAdvices\(11) OOP2\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(456,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
