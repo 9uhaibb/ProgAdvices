@@ -2,6 +2,7 @@
 #include <ctime>
 #include <cstdlib>
 
+//
 using namespace std;
 
 void ResetColor ()
