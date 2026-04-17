@@ -62,6 +62,9 @@ void GoBackToTranactionMenu();
 void ShowMainMenu ();
 void ShowTransactionScreen ();
 
+void ShowFindCLientScreen();
+void GoBackToFindClientScreen();
+
 vector <string>  SplitString (string String, string Delim)
 {
     vector <string> vString;
@@ -244,6 +247,32 @@ bool CheckAccessPermossion (enMainMenuPermossions Permossion)
         return false; 
 }
 
+bool FindClientByAccountNumber (string AccountNumber, vector <stClient> vClients, stClient &Client)
+{
+    for (stClient C : vClients)
+    {
+        if (C.AccountNumber == AccountNumber)
+        {
+            Client = C;
+            return true;
+        }
+    }
+    return false;
+}
+
+bool FindClientByName(string ClientName, vector <stClient> vClients, stClient& Client)
+{
+    for (stClient C : vClients)
+    {
+        if (C.Name == ClientName)
+        {
+            Client = C;
+            return true;
+        }
+    }
+    return false;
+}
+
 // 1. show Client List
 void ShowAllClientsScreen (string FileName)
 {
@@ -306,18 +335,6 @@ string ReadClientNumber ()
     cout << "Enter Accont Number:";
     cin >> AccountNumber;
     return AccountNumber;
-}
-bool FindClientByAccountNumber (string AccountNumber, vector <stClient> vClients, stClient &Client)
-{
-    for (stClient C : vClients)
-    {
-        if (C.AccountNumber == AccountNumber)
-        {
-            Client = C;
-            return true;
-        }
-    }
-    return false;
 }
 
 bool MarkClientForDeleteByAccountNumber (string AccountNumber, vector<stClient> &vClients)
@@ -526,8 +543,8 @@ void PerformFindClientOptions (enFindClientOptions FindClientOption)
     {
         case enFindClientOptions::eName:
             system("cls");
-            //FindClientByName(Clientname);
-            //GoBackToFindClientScreen();
+            cout << "Find client by name will be here..\n";
+            GoBackToFindClientScreen();
             break;
         case enFindClientOptions::eAccountNumber:
             system("cls");
@@ -547,7 +564,12 @@ void PerformFindClientOptions (enFindClientOptions FindClientOption)
     }
 }
 
-
+void GoBackToFindClientScreen ()
+{
+    cout << "Press any key to go back to Transaction menu..." << endl;
+    system("pause>0");
+    ShowFindCLientScreen();
+}
 void ShowFindCLientScreen ()
 {
     if (!CheckAccessPermossion(enMainMenuPermossions::pUpdateClient))
