@@ -1,0 +1,10 @@
+Images formats:
+JPEG : for complex images with many colors
+PNG  : for images requiring transparency
+WebP : for a balance of quality and performance where supported
+SVG  : for scalable images like logos
+GIF  : for simple animations
+
+Test for Compatibility: Ensure that the chosen image formats are compatible with all target browsers and devices. Consider providing fallbacks for formats like WebP if targeting browsers that do not support it.
+
+Lazy Loading: Implement lazy loading for images to improve page load times and conserve bandwidth, especially for image-heavy pages.

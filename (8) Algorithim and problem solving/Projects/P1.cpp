@@ -62,6 +62,9 @@ void GoBackToTranactionMenu();
 void ShowMainMenu ();
 void ShowTransactionScreen ();
 
+void ShowFindCLientScreen();
+void GoBackToFindClientScreen();
+
 vector <string>  SplitString (string String, string Delim)
 {
     vector <string> vString;
@@ -244,6 +247,32 @@ bool CheckAccessPermossion (enMainMenuPermossions Permossion)
         return false; 
 }
 
+bool FindClientByAccountNumber (string AccountNumber, vector <stClient> vClients, stClient &Client)
+{
+    for (stClient C : vClients)
+    {
+        if (C.AccountNumber == AccountNumber)
+        {
+            Client = C;
+            return true;
+        }
+    }
+    return false;
+}
+
+bool FindClientByName(string ClientName, vector <stClient> vClients, stClient& Client)
+{
+    for (stClient C : vClients)
+    {
+        if (C.Name == ClientName)
+        {
+            Client = C;
+            return true;
+        }
+    }
+    return false;
+}
+
 // 1. show Client List
 void ShowAllClientsScreen (string FileName)
 {
@@ -306,18 +335,6 @@ string ReadClientNumber ()
     cout << "Enter Accont Number:";
     cin >> AccountNumber;
     return AccountNumber;
-}
-bool FindClientByAccountNumber (string AccountNumber, vector <stClient> vClients, stClient &Client)
-{
-    for (stClient C : vClients)
-    {
-        if (C.AccountNumber == AccountNumber)
-        {
-            Client = C;
-            return true;
-        }
-    }
-    return false;
 }
 
 bool MarkClientForDeleteByAccountNumber (string AccountNumber, vector<stClient> &vClients)
@@ -508,6 +525,51 @@ void ShowUpdateClientControlScreen ()
 }
 
 //5. Find Client
+
+enum enFindClientOptions {
+    eName = 1, eAccountNumber = 2, eBalanceBiggerThanValue = 3, eBalanceLessThanValue = 4
+};
+
+short ReadFindCLientOption ()
+{
+    cout << "Choose what do you want to do? [1 to 3]? ";
+    short Choice = 0;
+    cin >> Choice;
+    return Choice;
+}
+void PerformFindClientOptions (enFindClientOptions FindClientOption)
+{
+    switch (FindClientOption)
+    {
+        case enFindClientOptions::eName:
+            system("cls");
+            cout << "Find client by name will be here..\n";
+            GoBackToFindClientScreen();
+            break;
+        case enFindClientOptions::eAccountNumber:
+            system("cls");
+            //FindClientByAccNumber(AccountNumber);
+            //GoBackToFindUSderScfreen();
+            break;
+        case enFindClientOptions::eBalanceBiggerThanValue:
+            system("cls");
+            //FindClientByBalanceBiggerThan(value);
+            //GoBack..
+            break;
+        case enFindClientOptions::eBalanceLessThanValue:
+            system("cls");
+            //FindClientByBalanceLessThan(value);
+            //GoBack..
+            break;
+    }
+}
+
+void GoBackToFindClientScreen ()
+{
+    cout << "Press any key to go back to Transaction menu..." << endl;
+    system("pause>0");
+    ShowFindCLientScreen();
+}
 void ShowFindCLientScreen ()
 {
     if (!CheckAccessPermossion(enMainMenuPermossions::pUpdateClient))
@@ -519,11 +581,19 @@ void ShowFindCLientScreen ()
     cout << "------------------------------" << endl;
     cout << "     Find Client Screen     " << endl;
     cout << "------------------------------" << endl;
+    cout << "\tSearch by:\n";
+    cout << "\t[1] Name\n";
+    cout << "\t[2] Account Number\n";
+    cout << "\t[3] Balance > value\n";
+    cout << "\t[4] Balance < value\n";
+
+    cout << "__________________________________\n" << endl;
+    PerformFindClientOptions((enFindClientOptions)ReadFindCLientOption());
     
-    string AccountNumber = ReadClientNumber();
     vector <stClient> vClients = LoadClientsDataFromFile(ClientsFileName);
     stClient Client;
-
+    
+    string AccountNumber = ReadClientNumber();
     if (FindClientByAccountNumber(AccountNumber,vClients,Client))
         PrintClientCard(Client);
     else
@@ -733,7 +803,9 @@ short ReadMainMenuOption ()
     cin >> Choice;
     return Choice;
 }
-
+ //////////////////////////////////
+ /// Users code starts here //////
+/////////////////////////////////
 void GoBackToManegeUsersMenu();
 void ShowManegeUsersMenu();
 
